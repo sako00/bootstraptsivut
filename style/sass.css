@@ -129,6 +129,10 @@ ol {
   color: black;
 }
 
+ol > li {
+  color: rgb(48, 43, 43);
+}
+
 span {
   display: block;
   padding: 0.1rem 0.7rem;

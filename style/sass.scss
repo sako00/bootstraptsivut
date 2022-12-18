@@ -39,6 +39,7 @@ $highlight: purple;
 .visa .navbar-brand1{
     font-size: 30px;
 }
+//käytin [] merkkiä linkin värin muuttamiseksi eriväriseksi.
 a[target="_blank"]{
     color: pink;
 }
@@ -140,6 +141,12 @@ ol{
     padding: 0 1.5rem;
     color: black;
 }
+//käytin > ol-elementtiin jolla pienemmät kuin ol eli listat muuttuivat väriltään tummanharmaiksi
+ol>li{
+    color:rgb(48, 43, 43);
+}
+
+
 span{
     display: block;
     padding: 0.1rem 0.7rem;
