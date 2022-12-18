@@ -29,6 +29,10 @@
   font-size: 30px;
 }
 
+a[target=_blank] {
+  color: pink;
+}
+
 .navbar-brand1 {
   text-decoration: none;
   color: black;
