@@ -287,3 +287,12 @@ footer{
 //käytin [] merkkiä linkin värin muuttamiseksi eriväriseksi.
 //Käytin pseudo selectoria :hover muuttamaan tekstin valkoiseksi kun hiirellä menee sen päälle
 //käytin > ol-elementtiin jota pienemmät kuin eli listat muuttuivat väriltään violetiksi
+// Tämä selectori on index-sivulla, ul elementin suora sisarus p jolle laitoin ylä borderin  
+//    ul+p{
+//    border-top: 2px solid black;
+//    }
+// Tämä selectori on index-sivulla, kaikki ul elementin sisarukset muuttuvat tällä määrittelyllä ja laitoin p:lle lihavoinnin.
+//    ul~p{
+//    font-weight: bold;
+//    }
+ 
