@@ -21,7 +21,13 @@ header{
     font-family:'Courier New', Courier, monospace;
     color: plum;  
 }
-
+    
+ul+p{
+    border-top: 2px solid black;
+}
+ul~p{
+    font-weight: bold;
+}
 
 nav{
     font-family: 'Courier New', Courier, monospace;
