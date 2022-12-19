@@ -142,10 +142,11 @@ ol{
     padding: 0 1.5rem;
     color: black;
 }
-//käytin > ol-elementtiin jota pienemmät kuin eli listat muuttuivat väriltään tummanharmaiksi
+//käytin > ol-elementtiin jota pienemmät kuin eli listat muuttuivat väriltään violetiksi
 ol>li{
-    color:rgb(48, 43, 43);
+    color:$highlight;
 }
+
 
 
 span{
@@ -251,6 +252,9 @@ footer{
         padding-left:6px;
         
         
+    }
+    .visa .navbar-brand1{
+        font-size: 11px;
     }
     
     

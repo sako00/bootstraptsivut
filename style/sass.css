@@ -130,7 +130,7 @@ ol {
 }
 
 ol > li {
-  color: rgb(48, 43, 43);
+  color: purple;
 }
 
 span {
@@ -237,6 +237,9 @@ footer {
     font-size: 11px;
     text-align: center;
     padding-left: 6px;
+  }
+  .visa .navbar-brand1 {
+    font-size: 11px;
   }
   .questions {
     width: 70%;
