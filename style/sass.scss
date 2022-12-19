@@ -74,6 +74,7 @@ header img{
     
 }
 
+
 nav{
 
     font-family: 'Patrick Hand SC', cursive;
@@ -146,8 +147,6 @@ ol{
 ol>li{
     color:$highlight;
 }
-
-
 
 span{
     display: block;
@@ -285,3 +284,6 @@ footer{
    
     
 }
+//käytin [] merkkiä linkin värin muuttamiseksi eriväriseksi.
+//Käytin pseudo selectoria :hover muuttamaan tekstin valkoiseksi kun hiirellä menee sen päälle
+//käytin > ol-elementtiin jota pienemmät kuin eli listat muuttuivat väriltään violetiksi
