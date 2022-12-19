@@ -133,6 +133,7 @@ img{
     background: lightblue;
     border-radius: 1rem;
 }
+//Käytin pseudo selectoria :hover muuttamaan tekstin valkoiseksi kun hiirellä menee sen päälle.
 .option:hover{
     color: white;
 }
@@ -141,7 +142,7 @@ ol{
     padding: 0 1.5rem;
     color: black;
 }
-//käytin > ol-elementtiin jolla pienemmät kuin ol eli listat muuttuivat väriltään tummanharmaiksi
+//käytin > ol-elementtiin jota pienemmät kuin eli listat muuttuivat väriltään tummanharmaiksi
 ol>li{
     color:rgb(48, 43, 43);
 }
